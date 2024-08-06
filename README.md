@@ -25,4 +25,4 @@ If you want to change the disparity method without restarting the node, in a sep
 ```
 rosparam set /disp_method 'RAFT'
 ```
-The above command will set the mode to Raft Stereo. If you wish to use SGBM, type `SGBM` instead.
+The above command will set the mode to Raft Stereo. If you wish to use SGBM, type `'SGBM'` instead.
