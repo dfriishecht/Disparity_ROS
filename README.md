@@ -21,6 +21,8 @@ conda activate disparity_node
 rosrun disparity disparity_node.py
 ```
 
+Once the node receives a stereo image pair, it will compute the disparity, publish it to the `/disparity_map` topic, and save the most recent map to a folder named `output` in your home directory.
+
 If you want to change the disparity method without restarting the node, in a seperate terminal use:
 ```
 rosparam set /disp_method 'RAFT'
