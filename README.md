@@ -1,6 +1,8 @@
 # Disparity_ROS
 ROS1 for generating a disparity map from a stereo image pair. The node supports either Raft Stereo or SGBM as the disparity methods.
 
+Adapted from the `disparity.py` script from https://github.com/chjohnkim/stereo3d_vision_pipeline
+
 By default, the node will use Raft Stereo, as it delivers higher quality at a small performance penalty relative to SGBM.
 
 ## Setup Conda Environment
