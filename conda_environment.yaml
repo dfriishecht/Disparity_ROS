@@ -1,0 +1,21 @@
+name: disparity_node
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - torchaudio=2.3.0
+  - pytorch-cuda=11.8
+  - pip
+  - pip:
+    - open3d
+    - opencv-python
+    - tqdm
+    - scipy
+    - opt-einsum
+    - pillow
+    - matplotlib
+
